@@ -1,5 +1,8 @@
 import ThemeSwitcher from './ThemeSwitcher'
 import './App.css'
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Test from './compontents/Test'
 
 function App() {
   return (
@@ -7,6 +10,10 @@ function App() {
       <div>
         <ThemeSwitcher />
       </div>
+
+      <Routes>
+        <Route path="/" element={<Test />} />
+      </Routes>
     </div>
   )
 }
