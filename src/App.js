@@ -3,6 +3,7 @@ import './App.css'
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Test from './compontents/Test'
+import Resume from './compontents/Resume'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Test />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </div>
   )

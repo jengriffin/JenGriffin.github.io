@@ -186,7 +186,7 @@ const Test = () => {
                 >
                   <img
                     class="img-fluid project-image rounded shadow-sm"
-                    src="src/assests/Add a book.png"
+                    src="src/assets/Add a book.png"
                     alt="children's book database"
                   />
                 </a>
