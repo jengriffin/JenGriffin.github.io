@@ -59,7 +59,7 @@ const Test = () => {
             </div>
           </div>
         
-            <i class="fas fa-paper-plane"></i> <button onClick={onButtonClick}>Download Resume</button>
+            <i class="fas fa-paper-plane"></i> <button type="button" class="btn btn-success btn-lg mb-2" size="lg" onClick={onButtonClick}>Download Resume</button>
           
         </div>
       </div>
