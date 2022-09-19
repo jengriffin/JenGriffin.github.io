@@ -56,7 +56,7 @@ const Test = () => {
       </div>
     </div>
   </header>
-<body>
+  <body></body>
   <div class="container sections-wrapper py-5">
     <div class="row">
       <div class="primary col-lg-8 col-12">
@@ -171,7 +171,7 @@ const Test = () => {
                   <p class="mb-2">
                       This front-end hangman game was built in 6 days utilizing JavaScript, CSS, and HTML 5 and is  structured to support early literacy and technology skills for children, covering 7 essential skills.
                       The words are the 100 most frequently read encountered words for kindergarten. High contrast colors, straight font styling and various element sizes make important features stand out for learners new to digital interactions and those with various levels of visual acuity.
-                       The option to use a keyboard is given for learners who want to build keyboard awareness and those with motor disabilities.
+                      The option to use a keyboard is given for learners who want to build keyboard awareness and those with motor disabilities.
                       
                   </p>
           
@@ -196,7 +196,7 @@ const Test = () => {
                       href="https://fast-basin-96068.herokuapp.com/"
                       target="_blank"
                     >
-                     Children's Book Database
+                    Children's Book Database
                     </a>
                   </h3>
                   <p class="mb-2">
@@ -204,9 +204,8 @@ const Test = () => {
                       Built an Express server from scratch using Javascript, MongoDB, Mongoose HTML 5, CSS and React.
                       
                   </p>
-            
-                </div>
-              </div>
+                </div>     
+        
 
             
 
@@ -301,7 +300,7 @@ const Test = () => {
 
   <script type="text/javascript" src="assets/js/main.js"></script>
 
-  </body>
+    
   </div>
   )
 }
