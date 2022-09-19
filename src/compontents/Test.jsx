@@ -1,4 +1,7 @@
+import { NavLink} from "react-router-dom"
+import spaceman from '../assets/Spaceman.png'
 const Test = () => {
+
   return (
     <div>
     <header class="header">
@@ -50,7 +53,7 @@ const Test = () => {
             href="https://themes.3rdwavemedia.com/"
             target="_blank"
           >
-            <i class="fas fa-paper-plane"></i> Contact Me
+            <i class="fas fa-paper-plane"></i> <NavLink className='nav_links' to='/resume'>Resume</NavLink>
           </a>
         </div>
       </div>
@@ -155,7 +158,7 @@ const Test = () => {
                 >
                   <img
                     class="img-fluid project-image rounded shadow-sm"
-                    src="src/assests/Spaceman.png"
+                    src={spaceman}
                     alt="Spaceman"
                   />
                 </a>

@@ -4,6 +4,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Test from './compontents/Test'
 import Resume from './compontents/Resume'
+// import { Griffin } from './assets/Griffin.pdf'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div>
         <ThemeSwitcher />
       </div>
+      {/* <Resume pdf={Griffin} /> */}
 
       <Routes>
         <Route path="/" element={<Test />} />
