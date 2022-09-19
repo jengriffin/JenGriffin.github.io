@@ -230,19 +230,19 @@ const Test = () => {
                Some of the languages, and frameworks I have built with include:
               </p>
               <ul>
-                  <li>Django</li>
-                  <li>Vue.js</li>
-                  <li>SQL</li>
-                  <li>PostgresSQL</li>
-                  <li>Sequelize.js</li>
-                  <li>Express.js</li>
-                  <li>MongoDB</li>
-                  <li>Mongoose</li>
-                  <li>React.js</li>
-                  <li>Python</li>
-                  <li>JavaScript</li>
-                  <li>HTML 5</li>
-                  <li>CSS</li>
+                  <li class="list-group-item">Django</li>
+                  <li class="list-group-item">Vue.js</li>
+                  <li class="list-group-item">SQL</li>
+                  <li class="list-group-item">PostgresSQL</li>
+                  <li class="list-group-item">Sequelize.js</li>
+                  <li class="list-group-item">Express.js</li>
+                  <li class="list-group-item">MongoDB</li>
+                  <li class="list-group-item">Mongoose</li>
+                  <li class="list-group-item">React.js</li>
+                  <li class="list-group-item">Python</li>
+                  <li class="list-group-item">JavaScript</li>
+                  <li class="list-group-item">HTML 5</li>
+                  <li class="list-group-item">CSS</li>
 
 
               </ul>
