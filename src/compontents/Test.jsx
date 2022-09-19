@@ -56,7 +56,7 @@ const Test = () => {
       </div>
     </div>
   </header>
-  <body></body>
+  
   <div class="container sections-wrapper py-5">
     <div class="row">
       <div class="primary col-lg-8 col-12">
@@ -204,7 +204,11 @@ const Test = () => {
                       Built an Express server from scratch using Javascript, MongoDB, Mongoose HTML 5, CSS and React.
                       
                   </p>
-                </div>     
+                </div>
+                </div>
+                </div>
+                </div>
+          </section>     
         
 
             
@@ -256,6 +260,7 @@ const Test = () => {
                   <span class="title">Software Engineer</span>
                 </p>
               </div>
+              </div>
 
               <p>
                 <a class="more-link" href="https://www.linkedin.com/in/jennifer-griffin12/">
@@ -266,42 +271,7 @@ const Test = () => {
           
         </aside>
     </div>
-  </div>
-  <script
-    type="text/javascript"
-    src="assets/plugins/popper.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="assets/plugins/bootstrap/js/bootstrap.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="assets/plugins/vanilla-rss/dist/rss.global.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"
-  ></script>
 
-  <script
-    type="text/javascript"
-    src="assets/plugins/github-calendar/dist/github-calendar.min.js"
-  ></script>
-
-  <script
-    type="text/javascript"
-    src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="assets/plugins/github-activity/src/github-activity.js"
-  ></script>
-
-  <script type="text/javascript" src="assets/js/main.js"></script>
-
-    
-  </div>
   )
 }
 export default Test
