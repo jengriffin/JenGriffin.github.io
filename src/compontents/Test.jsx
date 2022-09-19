@@ -4,6 +4,20 @@ import book from '../assets/book.png'
 import form from '../assets/form.png'
 import cookbook from '../assets/reciepes-for-me.png'
 const Test = () => {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('Griffin.pdf').then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob)
+        // Setting various property values
+        let alink = document.createElement('a')
+        alink.href = fileURL
+        alink.download = 'Griffin.pdf'
+        alink.click()
+      })
+    })
+  }
 
   return (
     <div>
@@ -41,23 +55,12 @@ const Test = () => {
         <div class="col-12 col-md-auto">
           <div class="dark-mode-switch d-flex">
             <div class="form-check form-switch mx-auto mx-md-0">
-              <input
-                type="checkbox"
-                class="form-check-input me-2"
-                id="darkSwitch"
-              />
-              <label class="custom-control-label" for="darkSwitch">
-                Dark Mode
-              </label>
+              
             </div>
           </div>
-          <a
-            class="btn btn-cta-primary"
-            href="https://themes.3rdwavemedia.com/"
-            target="_blank"
-          >
-            <i class="fas fa-paper-plane"></i> <NavLink className='nav_links' to='/resume'>Resume</NavLink>
-          </a>
+        
+            <i class="fas fa-paper-plane"></i> <button onClick={onButtonClick}>Download Resume</button>
+          
         </div>
       </div>
     </div>
