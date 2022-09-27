@@ -223,7 +223,7 @@ const Test = () => {
             
 
         <aside class="skills aside section">
-          <div class="section-inner shadow-sm rounded">
+          <div class="section-inner shadow-sm rounded ">
             <h2 class="heading">Skills</h2>
             <div class="content">
               <p class="intro">
