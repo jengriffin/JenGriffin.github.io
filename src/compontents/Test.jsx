@@ -159,7 +159,7 @@ const Test = () => {
               <div class="item row">
                 <a
                   class="col-md-4 col-12"
-                  href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/"
+                  href="https://robust-boasts.surge.sh/"
                   target="_blank"
                 >
                   <img
