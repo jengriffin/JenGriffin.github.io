@@ -224,7 +224,7 @@ const Test = () => {
 
         <aside class="skills aside section">
           <div class="section-inner shadow-sm rounded ">
-            <h2 class="heading"><a id="#anchor_skills"></a>Skills</h2>
+            <h2 class="heading"><a id="anchor_skills"></a>Skills</h2>
             <div class="content">
               <p class="intro">
                Some of the languages, and frameworks I have built with include:
@@ -255,7 +255,7 @@ const Test = () => {
 
         <aside class="testimonials aside section">
           <div class="section-inner shadow-sm rounded">
-            <h2 class="heading"><a id="#anchor_testimonials"></a>Testimonials</h2>
+            <h2 class="heading"><a id="anchor_testimonials"></a>Testimonials</h2>
             <div class="content">
               <div class="item">
                 <blockquote class="quote">
