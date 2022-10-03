@@ -3,6 +3,7 @@ import './App.css'
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Test from './compontents/Test'
+import Nav from './compontents/Nav'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       {/* <div>
         <ThemeSwitcher />
       </div> */}
-
+      <Nav />
       <Routes>
         <Route path="/" element={<Test />} />
       </Routes>

@@ -26,7 +26,7 @@ const Test = () => {
       <div class="row align-items-center">
         <div class="col">
           <div class="profile-content">
-            <h1 class="name">Jennifer Griffin</h1>
+            <h1 class="name"><a id="anchor_top"></a>Jennifer Griffin</h1>
             <h2 class="desc">Full Stack Software Engineer</h2>
             <ul class="social list-inline">
               <li class="list-inline-item">
@@ -71,7 +71,7 @@ const Test = () => {
       <div class="primary col-lg-8 col-12">
         <section class="about section">
           <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">About Me</h2>
+            <h2 class="heading"><a id="anchor_about"></a>About Me</h2>
             <div class="content">
               <p>
                 Years of professional experience and a curious mind have
@@ -92,7 +92,7 @@ const Test = () => {
 
         <section class="latest section">
           <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">Latest Projects</h2>
+            <h2 class="heading"><a id="anchor_projects"></a>Latest Projects</h2>
             <div class="content">
               <div class="item featured text-center">
                 <div class="featured-image has-ribbon">
@@ -224,7 +224,7 @@ const Test = () => {
 
         <aside class="skills aside section">
           <div class="section-inner shadow-sm rounded ">
-            <h2 class="heading">Skills</h2>
+            <h2 class="heading"><a id="#anchor_skills"></a>Skills</h2>
             <div class="content">
               <p class="intro">
                Some of the languages, and frameworks I have built with include:
@@ -255,7 +255,7 @@ const Test = () => {
 
         <aside class="testimonials aside section">
           <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">Testimonials</h2>
+            <h2 class="heading"><a id="#anchor_testimonials"></a>Testimonials</h2>
             <div class="content">
               <div class="item">
                 <blockquote class="quote">
