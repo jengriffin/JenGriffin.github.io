@@ -4,8 +4,8 @@ const About = () => {
     return (
 
     <div className="container  bg-light sections-wrapper py-5">
-        <div className="row">
-            <div className="primary col-lg-8 col-12">
+        <div className="container">
+            <div className="primary col-lg-8">
                 <section className="about section">
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading"><a id="anchor_about"></a>About Me</h2>
