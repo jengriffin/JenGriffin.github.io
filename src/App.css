@@ -9,10 +9,10 @@ section{
   height: 100vh;
 }
 body{
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1RoJj3nGGAWYccu9-YGwhCfOfrHQUAtY2w&usqp=CAU");
+  background: url("https://www.ucdavis.edu/sites/default/files/styles/sf_landscape_16x9/public/images/article/160726_sunflower_rows.jpg.jpeg?h=57024e64&itok=fyhoGQGq");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 .nav {
   float: left;
