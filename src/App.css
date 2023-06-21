@@ -9,8 +9,10 @@ section{
   height: 100vh;
 }
 body{
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1RoJj3nGGAWYccu9-YGwhCfOfrHQUAtY2w&usqp=CAU");
-
+  bg: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1RoJj3nGGAWYccu9-YGwhCfOfrHQUAtY2w&usqp=CAU");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .nav {
   float: left;
