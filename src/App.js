@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Test from './compontents/Test'
 import Nav from './compontents/Nav'
 import About from "./compontents/About";
+import Projects from "./compontents/Projects";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       </div> */}
       <Nav />
         <About />
+        <Projects/>
       <Routes>
         <Route path="/" element={<Test />} />
       </Routes>
