@@ -1,8 +1,16 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+  display: none;
+}
+section{
+  height: 100vh;
 }
 body{
-  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1RoJj3nGGAWYccu9-YGwhCfOfrHQUAtY2w&usqp=CAU";
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1RoJj3nGGAWYccu9-YGwhCfOfrHQUAtY2w&usqp=CAU");
+
 }
 .nav {
   float: left;
