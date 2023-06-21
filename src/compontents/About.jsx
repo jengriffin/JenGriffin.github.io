@@ -3,7 +3,7 @@ import Nav from "./Nav";
 const About = () => {
     return (
 
-    <div className="container sections-wrapper py-5">
+    <div className="container  bg-light sections-wrapper py-5">
         <div className="row">
             <div className="primary col-lg-8 col-12">
                 <section className="about section">
