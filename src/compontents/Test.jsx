@@ -65,30 +65,8 @@ const Test = () => {
       </div>
     </div>
   </header>
-  
-  <div class="container sections-wrapper py-5">
-    <div class="row">
-      <div class="primary col-lg-8 col-12">
-        <section class="about section">
-          <div class="section-inner shadow-sm rounded">
-            <h2 class="heading"><a id="anchor_about"></a>About Me</h2>
-            <div class="content">
-              <p>
-                Years of professional experience and a curious mind have
-                honed my dedication and persistence. As a software
-                engineer, I take a holistic approach to creating a final
-                product that not only incorporates the end user
-                experience, but analyzes how the efficiency of each step
-                of the process can be improved. I not only bring the
-                satisfaction that a task given to me is a task done to
-                your unique specifications, but I bring my own tea.
-              </p>
-            </div>
-          </div>
-          </section>
-      </div>
-  </div>
-        
+
+      <div className="container sections-wrapper py-5">
 
         <section class="latest section">
           <div class="section-inner shadow-sm rounded">
