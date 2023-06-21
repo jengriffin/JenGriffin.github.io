@@ -31,22 +31,22 @@ const Test = () => {
             <ul class="social list-inline">
               <li class="list-inline-item">
                 <a href="https://github.com/jengriffin">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-linkedin-in border border-dark rounded-circle p-2"></i>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/jennifer-griffin12/">
-                  <i class="fab fa-github-alt"></i>
+                  <i class="fab fa-github-alt border border-dark rounded-circle p-2"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-stack-overflow"></i>
-                </a>
-              </li>
+              {/*<li class="list-inline-item">*/}
+              {/*  <a href="#">*/}
+              {/*    <i class="fab fa-stack-overflow border border-dark rounded-circle p-2"></i>*/}
+              {/*  </a>*/}
+              {/*</li>*/}
               <li class="list-inline-item last-item">
                 <a href="#">
-                  <i class="fab fa-codepen"></i>
+                  <i class="fab fa-codepen border border-dark rounded-circle p-2"></i>
                 </a>
               </li>
             </ul>

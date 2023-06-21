@@ -4,6 +4,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Test from './compontents/Test'
 import Nav from './compontents/Nav'
+import About from "./compontents/About";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <ThemeSwitcher />
       </div> */}
       <Nav />
+        <About />
       <Routes>
         <Route path="/" element={<Test />} />
       </Routes>
