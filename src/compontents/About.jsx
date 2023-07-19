@@ -2,8 +2,9 @@ import Nav from "./Nav";
 
 const About = () => {
     return (
+        <section id="about" >
 
-    <div className="container  bg-light sections-wrapper py-5">
+    <div className="container  bg-light sections-wrapper py-5 text-center">
         <div className="container">
             <div className="primary col-lg-8">
                 <section className="about section">
@@ -26,6 +27,7 @@ const About = () => {
             </div>
         </div>
     </div>
+        </section>
    )
 }
 export default About

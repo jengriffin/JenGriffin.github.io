@@ -2,12 +2,12 @@ import form from "../assets/form.png";
 
 const Latest = () => {
     return(
-        <div id="projects" class="bg-light">
-        <section className="latest section">
-            <div className="section-inner shadow-sm rounded">
+        <div id="latest" class="bg-light container">
+        <section className="latest section ">
+            <div className="section-inner shadow-sm rounded col-md-4 col-24">
                 <h2 className="heading"><a id="anchor_projects"></a>Latest Projects</h2>
                 <div className="content">
-                    <div className="item featured text-center">
+                    <div className="item featured text-center ">
                         <div className="featured-image has-ribbon">
                             <a
                                 href="https://grow-it-notes.herokuapp.com/"
