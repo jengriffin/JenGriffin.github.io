@@ -68,37 +68,7 @@ const Test = () => {
 
       <div className="container sections-wrapper py-5">
 
-        <section class="latest section">
-          <div class="section-inner shadow-sm rounded">
-            <h2 class="heading"><a id="anchor_projects"></a>Latest Projects</h2>
-            <div class="content">
-              <div class="item featured text-center">
-                <div class="featured-image has-ribbon">
-                  <a
-                    href="https://grow-it-notes.herokuapp.com/"
-                    target="_blank"
-                  >
-                    <img
-                      class="img-fluid project-image rounded shadow-sm"
-                      src={form}
-                      alt="Grow It"
-                    />
-                  </a>
-                  <div class="ribbon">
-                    <div class="text">New!</div>
-                  </div>
-              </div>
 
-                <div class="desc text-start">
-                  <p>
-                    This app is for the gardner on the go! Now you can build your own personal digital database of plants and keep notes about the changes in your gardren. Designed with simple controls anyone can use this navigation friendly tool at thier computer or while shopping for the next big project.
-                  </p>
-                </div>
-
-                </div>
-                </div>
-                </div>
-          </section>     
         
 
             
