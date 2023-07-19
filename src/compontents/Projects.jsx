@@ -1,11 +1,15 @@
 import cookbook from "../assets/reciepes-for-me.png";
 import spaceman from "../assets/Spaceman.png";
 import book from "../assets/book.png";
+import latest from "./Latest";
+import Latest from "./Latest";
 
 const Projects =()=>{
 return(
     <section id="projects" class="bg-light">
         <div class="container">
+            <Latest/>
+            <hr className="divider"/>
     <a
         class="btn btn-cta-secondary"
         href="https://obscure-reef-40887.herokuapp.com/"

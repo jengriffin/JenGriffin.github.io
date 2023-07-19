@@ -2,9 +2,10 @@ import form from "../assets/form.png";
 
 const Latest = () => {
     return(
-        <div id="latest" class="bg-light container">
-        <section className="latest section ">
-            <div className="section-inner shadow-sm rounded col-md-4 col-24">
+        <div id="projects" class="bg-light">
+        <section className="latest section d-flex d-flex justify-content-center ">
+            <div className="item row">
+            <div className="section-inner shadow-sm rounded col-md-8 col-12">
                 <h2 className="heading"><a id="anchor_projects"></a>Latest Projects</h2>
                 <div className="content">
                     <div className="item featured text-center ">
@@ -35,6 +36,7 @@ const Latest = () => {
 
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         </div>
