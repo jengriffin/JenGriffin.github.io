@@ -5,7 +5,7 @@ const Latest = () => {
         <div id="projects" class="bg-light">
         <section className="latest section d-flex d-flex justify-content-center ">
             <div className="item row">
-            <div className="section-inner shadow-sm rounded col-md-8 col-12">
+            <div className="section-inner shadow-sm rounded col-md-12 col-12">
                 <h2 className="heading"><a id="anchor_projects"></a>Latest Projects</h2>
                 <div className="content">
                     <div className="item featured text-center ">
@@ -14,9 +14,11 @@ const Latest = () => {
                                 href="https://grow-it-notes.herokuapp.com/"
                                 target="_blank"
                             >
+
                                 <img
                                     className="img-fluid project-image rounded shadow-sm"
                                     src={form}
+                                    className="img-thumbnail"
                                     alt="Grow It"
                                 />
                             </a>
