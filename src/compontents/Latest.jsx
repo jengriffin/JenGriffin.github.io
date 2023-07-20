@@ -18,7 +18,7 @@ const Latest = () => {
                                 <img
                                     className="img-fluid project-image rounded shadow-sm"
                                     src={form}
-                                    className="img-thumbnail"
+                                    id="latest"
                                     alt="Grow It"
                                 />
                             </a>

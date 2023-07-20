@@ -63,5 +63,10 @@ body{
 .App-link {
   color: #61dafb;
 }
+#latest{
+  max-width: 50%;
+  height: auto;
+
+}
 
 
