@@ -19,21 +19,21 @@ body{
   top: 0;
   width: 100%;
 }
+.navbar-brand{
+  padding-left: .5rem;
+}
 .nav a {
   text-decoration: none;
   margin: .74rem 0 0 -.74rem;
   box-shadow: 6rem 4rem 20rem -5rem #282C35;
-  padding-bottom: 2px;
   text-transform: uppercase;
 }
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
 
 
-.nav a:hover {
-  box-shadow: 6rem 4rem 20rem -2rem #0a1a99;
-  width:2rem;
-  background-color:yellow;
-  color:#282C35
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

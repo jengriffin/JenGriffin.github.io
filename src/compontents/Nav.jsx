@@ -3,6 +3,7 @@ import Test from "./Test";
 import About from "./About";
 const Nav = () => {
   return (
+      <div className="navbar-wrapper">
     <div className="nav">
         <div className="container-fluid">
         <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
@@ -33,6 +34,7 @@ const Nav = () => {
         </nav>
         </div>
     </div>
+      </div>
   )
 }
 
