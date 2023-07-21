@@ -98,50 +98,72 @@ return(
 //
 //             </h3>
 //             <p class="mb-2">
-//                 A full stack MERN application built in 6 days with 4 user interactive methods.
-//                 Built an Express server from scratch using Javascript, MongoDB, Mongoose HTML 5, CSS and React.
+//
 //
 //             </p>
 //         </div>
 //     </div>
 //     </section>
-    <div className="card-group">
-        <div className="card">
-            <img className="card-img-top" src="..." alt="Card image cap"/>
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+    <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="col">
+            <div className="card shadow h-100">
+                <img src="..." className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content. This content is a little bit longer.</p>
+                    </div>
+            </div>
         </div>
-        <div className="card">
-            <img className="card-img-top" src="..." alt="Card image cap"/>
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+        <div className="col">
+            <div className="card shadow h-100">
+                <img src="..." className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a short card.</p>
+                    </div>
+            </div>
         </div>
-        <div className="card">
-            <img className="card-img-top" src="..." alt="Card image cap"/>
-                <div className="card-body">
-                    <h5 className="card-title">
-                        <a
-                        href="https://fast-basin-96068.herokuapp.com/"
-                        target="_blank">
-                        Children's Book Database
-                    </a>
-                    </h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
-                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+        <div className="col">
+            <div className="card shadow h-100">
+                <img src="..." className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content.</p>
+                    </div>
+            </div>
+        </div>
+        <div className="col">
+            <div className="card shadow h-100">
+                <img src="..." className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content. This content is a little bit longer.</p>
+                    </div>
+            </div>
         </div>
     </div>
+
+
+
+
 )
 
 }
 export default Projects
+
+    // <div className="card shadow">
+    //     <img className="w-100 border-bottom" src={book} alt="children's book database"/>
+    //     <div className="card-body">
+    //         <h5 className="card-title">
+    //             <a
+    //                 href="https://fast-basin-96068.herokuapp.com/"
+    //                 target="_blank">
+    //                 Children's Book Database
+    //             </a>
+    //         </h5>
+    //         <p className="card-text">A full stack MERN application built in 6 days with 4 user interactive methods. Built an Express server from scratch using Javascript, MongoDB, Mongoose HTML 5, CSS and React.</p>
+    //     </div>
+    // </div>
