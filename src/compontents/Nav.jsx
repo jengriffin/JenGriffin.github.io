@@ -4,7 +4,7 @@ import About from "./About";
 const Nav = () => {
   return (
     <div className="nav">
-        <div className="container">
+        <div className="container-fluid">
         <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
             <a className="navbar-brand" href="#">Jennifer Griffin</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse"
