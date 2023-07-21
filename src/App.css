@@ -18,13 +18,10 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
-  
-  
 }
 .nav a {
   text-decoration: none;
   margin: .74rem 0 0 -.74rem;
-  text-align: right;
   box-shadow: 6rem 4rem 20rem -5rem #282C35;
   padding-bottom: 2px;
   text-transform: uppercase;
