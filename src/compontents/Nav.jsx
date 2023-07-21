@@ -1,5 +1,6 @@
 import Projects from "./Projects";
 import Test from "./Test";
+import About from "./About";
 const Nav = () => {
   return (
     <div className="nav">
@@ -14,13 +15,13 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">About <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="#about">About <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#projects">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Skills</a>
+                        <a className="nav-link" href="#anchor_skills">Skills</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#anchor_testimonials">Testimonials</a>
