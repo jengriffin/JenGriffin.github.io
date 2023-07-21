@@ -15,27 +15,25 @@ body{
   background-size: 100%;
 }
 .nav {
-  float: left;
-  margin-left: 75px;
-  margin-bottom: -300px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   
   
 }
 .nav a {
-  color: #FFFFFF;
   text-decoration: none;
-  display: block;
   margin: .74rem 0 0 -.74rem;
   text-align: right;
   box-shadow: 6rem 4rem 20rem -5rem #282C35;
   padding-bottom: 2px;
+  text-transform: uppercase;
 }
 
 
 .nav a:hover {
-  box-shadow: 6px 4px 20px -2px #0a1a99;
-  font-size: 22px;
-  width:120px;
+  box-shadow: 6rem 4rem 20rem -2rem #0a1a99;
+  width:2rem;
   background-color:yellow;
   color:#282C35
 }
