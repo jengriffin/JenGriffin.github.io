@@ -4,6 +4,7 @@ import About from "./About";
 const Nav = () => {
   return (
     <div className="nav">
+        <div className="container">
         <nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark">
             <a className="navbar-brand" href="#">Navbar</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -13,7 +14,7 @@ const Nav = () => {
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
+                <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
                         <a className="nav-link" href="#about">About <span className="sr-only">(current)</span></a>
                     </li>
@@ -28,7 +29,9 @@ const Nav = () => {
                     </li>
                 </ul>
             </div>
+
         </nav>
+        </div>
     </div>
   )
 }
