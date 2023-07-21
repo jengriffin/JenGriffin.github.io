@@ -58,23 +58,16 @@ return(
 //         >
 //             <img
 //                 class="img-fluid project-image rounded shadow-sm"
-//                 src={spaceman}
-//                 alt="Spaceman"
+//                 src=
+//
 //             />
 //         </a>
 //         <div class="desc col-md-8 col-12">
 //             <h3 class="title">
-//                 <a
-//                     href="https://robust-boasts.surge.sh/"
-//                     target="_blank"
-//                 >
-//                     Spaceman
-//                 </a>
+//
 //             </h3>
 //             <p class="mb-2">
-//                 This front-end hangman game was built in 6 days utilizing JavaScript, CSS, and HTML 5 and is  structured to support early literacy and technology skills for children, covering 7 essential skills.
-//                 The words are the 100 most frequently read encountered words for kindergarten. High contrast colors, straight font styling and various element sizes make important features stand out for learners new to digital interactions and those with various levels of visual acuity.
-//                 The option to use a keyboard is given for learners who want to build keyboard awareness and those with motor disabilities.
+//
 //
 //             </p>
 //
@@ -107,11 +100,14 @@ return(
     <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
             <div className="card shadow h-100">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src={spaceman} className="card-img-top" alt="Spaceman"/>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.</p>
+                        <h5 className="card-title"> <a
+                            href="https://robust-boasts.surge.sh/" target="_blank">Spaceman
+                        </a></h5>
+                        <p className="card-text">This front-end hangman game was built in 6 days utilizing JavaScript, CSS, and HTML 5 and is  structured to support early literacy and technology skills for children, covering 7 essential skills.
+                            //                 The words are the 100 most frequently read encountered words for kindergarten. High contrast colors, straight font styling and various element sizes make important features stand out for learners new to digital interactions and those with various levels of visual acuity.
+                            //                 The option to use a keyboard is given for learners who want to build keyboard awareness and those with motor disabilities.</p>
                     </div>
             </div>
         </div>
@@ -136,11 +132,12 @@ return(
         </div>
         <div className="col">
             <div className="card shadow h-100">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src={book} className="card-img-top"  alt="children's book database"/>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.</p>
+                        <h5 className="card-title"><a
+                            href="https://fast-basin-96068.herokuapp.com/" target="_blank">Children's Book Database
+                        </a></h5>
+                        <p className="card-text">A full stack MERN application built in 6 days with 4 user interactive methods. Built an Express server from scratch using Javascript, MongoDB, Mongoose HTML 5, CSS and React.</p>
                     </div>
             </div>
         </div>
@@ -155,15 +152,11 @@ return(
 export default Projects
 
     // <div className="card shadow">
-    //     <img className="w-100 border-bottom" src={book} alt="children's book database"/>
+    //     <img className="w-100 border-bottom" src=/>
     //     <div className="card-body">
     //         <h5 className="card-title">
-    //             <a
-    //                 href="https://fast-basin-96068.herokuapp.com/"
-    //                 target="_blank">
-    //                 Children's Book Database
-    //             </a>
+    //
     //         </h5>
-    //         <p className="card-text">A full stack MERN application built in 6 days with 4 user interactive methods. Built an Express server from scratch using Javascript, MongoDB, Mongoose HTML 5, CSS and React.</p>
+    //         <p className="card-text"></p>
     //     </div>
     // </div>
