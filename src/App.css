@@ -24,9 +24,11 @@ body{
 }
 .nav a {
   text-decoration: none;
-  margin: .74rem 0 0 -.74rem;
+  margin: .74rem .74rem 0 -.74rem;
   box-shadow: 6rem 4rem 20rem -5rem #282C35;
   text-transform: uppercase;
+  letter-spacing: .25rem;
+
 }
 .container-fluid {
   padding-right: 0;
