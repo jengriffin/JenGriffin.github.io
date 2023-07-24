@@ -3,6 +3,7 @@ import spaceman from "../assets/Spaceman.png";
 import book from "../assets/book.png";
 import latest from "./Latest";
 import Latest from "./Latest";
+import form from "../assets/form.png";
 
 const Projects =()=>{
 return(
@@ -36,7 +37,6 @@ return(
 //
 //             </h3>
 //             <p class="mb-2">
-//
 //
 //             </p>
 //
@@ -113,18 +113,24 @@ return(
                                 The Modern Cookbook!
                             </a></h5>
                         <p className="card-text">A deployed full stack PERN application built in 5 days in a dev group of 4 software engineers that allows registered users to create and share recipe skills.
-                            //                 My chief responsibilities were time management, working with the front-end team to build user authentication, protected routes, and user registration I also enforced good git hygiene on the front-end repo, communicating with the team to resolve merge conflicts, coordinate  pulls and pushes, and keeping the front-end up to date.
-                            //                 Registered users can create, edit, and delete recipes, creating the recipes available to all visitors, as well as links to food pantries in the About section to address the rising cost of health food. To check it out put in a fake email and password and you're on your way! Make sure to check out the other developers to see what exciting new creations they have in store! Cedric Mun <a href="https://github.com/Aonmonomer">GitHub</a><a href="https://www.linkedin.com/in/cedricmun/"> LinkedIn</a>, Josh Langner <a href="https://github.com/jlangner87">GitHub</a> <a href="https://www.linkedin.com/in/josh-langner/"> LinkedIn,</a> Jackson McHugh <a href="https://github.com/Jacksonmchugh">GitHub </a> <a href="https://www.linkedin.com/in/jackson-mchugh/">LinkedIn.</a></p>
+                                             My chief responsibilities were time management, working with the front-end team to build user authentication, protected routes, and user registration I also enforced good git hygiene on the front-end repo, communicating with the team to resolve merge conflicts, coordinate  pulls and pushes, and keeping the front-end up to date.
+                                             Registered users can create, edit, and delete recipes, creating the recipes available to all visitors, as well as links to food pantries in the About section to address the rising cost of health food. To check it out put in a fake email and password and you're on your way! Make sure to check out the other developers to see what exciting new creations they have in store! Cedric Mun <a href="https://github.com/Aonmonomer">GitHub</a><a href="https://www.linkedin.com/in/cedricmun/"> LinkedIn</a>, Josh Langner <a href="https://github.com/jlangner87">GitHub</a> <a href="https://www.linkedin.com/in/josh-langner/"> LinkedIn,</a> Jackson McHugh <a href="https://github.com/Jacksonmchugh">GitHub </a> <a href="https://www.linkedin.com/in/jackson-mchugh/">LinkedIn.</a>
+                            </p>
                     </div>
             </div>
         </div>
         <div className="col">
             <div className="card shadow h-100">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src={form} className="card-img-top" alt="Grow It"/>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional content.</p>
+                        <h5 className="card-title">  <a
+                            href="https://grow-it-notes.herokuapp.com/"
+                            target="_blank"
+                        ></a></h5>
+                        <p className="card-text"> This app is for the gardner on the go! Now you can build your own personal digital
+                            database of plants and keep notes about the changes in your gardren. Designed with
+                            simple controls anyone can use this navigation friendly tool at thier computer or while
+                            shopping for the next big project.</p>
                     </div>
             </div>
         </div>
