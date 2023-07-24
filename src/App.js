@@ -6,6 +6,7 @@ import Test from './compontents/Test'
 import Nav from './compontents/Nav'
 import About from "./compontents/About";
 import Projects from "./compontents/Projects";
+import Latest from "./compontents/Latest";
 
 
 
@@ -19,7 +20,7 @@ function App() {
       <Nav />
         <About />
 
-        <Projects/>
+        {/*<Projects/>*/}
       <Routes>
         <Route path="/" element={<Test />} />
       </Routes>
