@@ -4,14 +4,14 @@ const About = () => {
     return (
         <section id="about" >
 
-    <div className="container   sections-wrapper py-5 text-center">
+    <div className="container-fluid   sections-wrapper pt-5 text-center">
         <div className="container">
-            <div className="primary  col-lg-20">
+            <div className="primary  col-lg-50">
                 <section className="about section">
                     <div className="section-inner bg-light shadow-sm rounded">
                         <h2 className="heading"><a id="anchor_about"></a>About Me</h2>
                         <div className="content">
-                            <p>
+                            <p className="col-md-8 lead">
                                 Years of professional experience and a curious mind have
                                 honed my dedication and persistence. As a software
                                 engineer, I take a holistic approach to creating a final

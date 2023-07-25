@@ -30,6 +30,10 @@ body{
   letter-spacing: .25rem;
 
 }
+.btn{
+  margin-right: 1rem;
+  margin-top: .8rem;
+}
 .container-fluid {
   padding-right: 0;
   padding-left: 0; }
@@ -43,16 +47,7 @@ body{
   }
 }
 
-.App-header {
-  background-color: aqua;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -61,6 +56,23 @@ body{
   max-width: 60%;
   height: auto;
 
+}
+.profile-content{
+margin-bottom: 85rem;
+  margin-right: 49rem;
+
+  background: hsla(100, 100%, 100%, 0.5);
+}
+header{
+  background-color: #0a1a99;
+}
+/*#about{*/
+/*  margin-bottom: 50rem;*/
+/*  margin-left: 49rem;*/
+/*}*/
+#projects{
+  background-color: #b02a37;
+  margin-top: 50rem;
 }
 
 

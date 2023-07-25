@@ -18,9 +18,9 @@ function App() {
         <ThemeSwitcher />
       </div> */}
       <Nav />
-        <About />
+        {/*<About />*/}
 
-        {/*<Projects/>*/}
+        <Projects/>
       <Routes>
         <Route path="/" element={<Test />} />
       </Routes>
