@@ -33,19 +33,15 @@ body{
 .btn{
   margin-right: 1rem;
   margin-top: .8rem;
+  text-transform: uppercase;
 }
 .container-fluid {
   padding-right: 0;
   padding-left: 0; }
-
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-section{
+  background-color: yellow;
 }
+
 
 
 
@@ -58,9 +54,6 @@ body{
 
 }
 .profile-content{
-margin-bottom: 85rem;
-  margin-right: 49rem;
-
   background: hsla(100, 100%, 100%, 0.5);
 }
 header{

@@ -18,12 +18,13 @@ function App() {
         <ThemeSwitcher />
       </div> */}
       <Nav />
-        {/*<About />*/}
+        <Routes>
+            <Route path="/" element={<Test />} />
+        </Routes>
+        <About />
 
         <Projects/>
-      <Routes>
-        <Route path="/" element={<Test />} />
-      </Routes>
+
     </div>
   )
 }

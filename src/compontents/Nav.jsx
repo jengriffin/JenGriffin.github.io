@@ -20,7 +20,7 @@ const Nav = () => {
       <div className="navbar-wrapper">
     <div className="nav">
         <div className="container-fluid">
-        <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top">
             <a className="navbar-brand" href="#">Jennifer Griffin</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
