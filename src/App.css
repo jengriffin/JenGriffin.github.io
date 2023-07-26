@@ -64,10 +64,10 @@ body{
   padding-top: 4rem;
 }
 .profile-content{
-  background: hsla(100, 100%, 100%, 0.5);
+  background: hsla(100, 100%, 100%, 0.25);
 }
 header{
-  background-color: #0a1a99;
+  background-color:hsla(100, 50%, 100%, 0) ;
 }
 /*#about{*/
 /*  margin-bottom: 50rem;*/
