@@ -9,7 +9,7 @@ const Test = () => {
 
 
   return (
-    <div>
+    <div className="profile-content-container">
     <header class="rounded-3 row align-items-lg-start">
         <div class="col">
           <div class="profile-content">

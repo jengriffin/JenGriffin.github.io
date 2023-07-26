@@ -5,7 +5,7 @@
 html::-webkit-scrollbar{
   display: none;
 }
-section{
+/*section{
   height: 100vh;
 }
 body{
@@ -13,6 +13,13 @@ body{
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100%;
+}*/
+.header-image {
+  background: url("https://www.ucdavis.edu/sites/default/files/styles/sf_landscape_16x9/public/images/article/160726_sunflower_rows.jpg.jpeg?h=57024e64&itok=fyhoGQGq");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
 }
 .nav {
   position: fixed;
@@ -53,6 +60,9 @@ body{
   height: auto;
 
 }
+.profile-content-container {
+  padding-top: 4rem;
+}
 .profile-content{
   background: hsla(100, 100%, 100%, 0.5);
 }
@@ -65,7 +75,6 @@ header{
 /*}*/
 #projects{
   background-color: #b02a37;
-  margin-top: 50rem;
 }
 
 

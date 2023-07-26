@@ -7,7 +7,7 @@ import form from "../assets/form.png";
 
 const Projects =()=>{
 return(
-    <div className="row row-cols-1 row-cols-md-3 g-4 "id="projects">
+    <div className="row row-cols-1 row-cols-md-3 g-4" id="projects">
         <div className="col">
             <div className="card shadow h-100">
                 <img src={spaceman} className="card-img-top" alt="Spaceman"/>
