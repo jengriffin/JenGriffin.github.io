@@ -46,7 +46,7 @@ body{
   padding-right: 0;
   padding-left: 0; }
 .about-section{
-  background-color: yellow;
+  background: hsla(100, 100%, 100%, 0.25);
 }
 
 

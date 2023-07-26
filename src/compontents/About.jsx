@@ -6,7 +6,7 @@ const About = () => {
             <div className="container-fluid sections-wrapper pt-5 text-center">
                 <div className="container">
                     <div className="primary col-lg-50">
-                            <div className="section-inner bg-light shadow-sm rounded">
+                            <div className="section-inner shadow-sm rounded about-section">
                                 <h2 className="heading"><a id="anchor_about"></a>About Me</h2>
                                 <div className="content">
                                     <p className="col-md-12 lead">
