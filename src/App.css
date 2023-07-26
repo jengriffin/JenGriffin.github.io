@@ -104,4 +104,7 @@ header{
   max-width: 24%;
   height: auto;
 }
-
+#post{
+  max-width: 10%;
+  height: auto;
+}
