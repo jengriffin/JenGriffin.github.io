@@ -74,7 +74,6 @@ header{
 /*  margin-left: 49rem;*/
 /*}*/
 #projects{
-  background-color: #b02a37;
   margin-right: 1rem;
   margin-left: 1rem;
 }
@@ -83,6 +82,9 @@ header{
   margin-left: 3rem;
   margin-top: 3rem;
   border-radius: 2rem;
+}
+#python{
+  color: rgb(53,114,165);
 }
 
 
