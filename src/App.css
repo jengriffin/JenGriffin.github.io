@@ -92,4 +92,16 @@ header{
 #react{
   color: rgb(94,212,224);
 }
+#js{
+  max-width: 50%;
+  height: auto;
+}
+#dj{
+  max-width: 35%;
+  height: auto;
+}
+#SQL{
+  max-width: 24%;
+  height: auto;
+}
 

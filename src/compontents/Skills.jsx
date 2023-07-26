@@ -28,21 +28,25 @@ const Skills = () => {
                  <li className="list-inline-item">
                      <i className="fab fa-react fa-3x fa-spin" id="react" alt="React" data-bs-toggle="tooltip" title="React.js"></i>
                  </li>
+                 <li className="list-inline-item">
+                     <img id="js" alt="Java Script" data-bs-toggle="tooltip" title="Java Script" src="https://wsrv.nl/?url=https%3A%2F%2Fcodedamn-blog.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2022%2F03%2F07094700%2Fjs1.png&w=200&q=75&output=webp"/>
+                 </li>
+                 <li className="list-inline-item">
+                     <img id="dj" alt="Django" data-bs-toggle="tooltip" title="Django" src="https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png"/>
+                 </li>
+                 <li className="list-inline-item">
+                     <img id="SQL" alt="SQL" data-bs-toggle="tooltip" title="SQL" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"/>
+                 </li>
              </ul>
              <ul>
               <li class="list-group-item">Django</li>
-              <li class="list-group-item">Vue.js</li>
               <li class="list-group-item">SQL</li>
               <li class="list-group-item">PostgresSQL</li>
               <li class="list-group-item">Sequelize.js</li>
               <li class="list-group-item">Express.js</li>
               <li class="list-group-item">MongoDB</li>
               <li class="list-group-item">Mongoose</li>
-              <li class="list-group-item">React.js</li>
-              <li class="list-group-item">Python</li>
               <li class="list-group-item">JavaScript</li>
-              <li class="list-group-item">HTML 5</li>
-              <li class="list-group-item">CSS</li>
 
 
             </ul>
