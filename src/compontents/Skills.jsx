@@ -22,13 +22,11 @@ const Skills = () => {
                  </li>
 
                  <li className="list-inline-item">
-                     <i className="fab fa-python fa-3x" id="python" alt="python" data-bs-toggle="tooltip" title="Python"></i>
+                     <i className="fab fa-vuejs fa-3x" id="vue" alt="Vue.js" data-bs-toggle="tooltip" title="Vue.js"></i>
                  </li>
 
-                 <li className="list-inline-item last-item">
-                     <a href="#">
-                         <i className="fab fa-codepen border border-dark rounded-circle p-2"></i>
-                     </a>
+                 <li className="list-inline-item">
+                     <i className="fab fa-react fa-3x fa-spin" id="react" alt="React" data-bs-toggle="tooltip" title="React.js"></i>
                  </li>
              </ul>
              <ul>
