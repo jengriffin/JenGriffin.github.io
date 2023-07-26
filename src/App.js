@@ -3,6 +3,7 @@ import React from 'react'
 import Nav from './compontents/Nav'
 import Projects from "./compontents/Projects";
 import ImageContainer from "./compontents/ImageContainer";
+import Skills from "./compontents/Skills";
 
 
 
@@ -13,6 +14,7 @@ function App() {
         <Nav />
         <ImageContainer />
         <Projects/>
+        <Skills/>
     </div>
   )
 }
