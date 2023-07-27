@@ -37,6 +37,9 @@ const Skills = () => {
                  <li className="list-inline-item">
                      <img id="SQL" alt="SQL" data-bs-toggle="tooltip" title="SQL" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"/>
                  </li>
+
+             </ul>
+             <ul className="social list-inline">
                  <li className="list-inline-item">
                      <img id="post" alt="PostgresSQL" data-bs-toggle="tooltip" title="PostgresSQL" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"/>
                  </li>
@@ -65,15 +68,6 @@ const Skills = () => {
                      <img id="post" alt="Nifi" data-bs-toggle="tooltip" title="Nifi" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Apache-nifi-logo.svg/2560px-Apache-nifi-logo.svg.png"/>
                  </li>
              </ul>
-             <ul>
-
-
-
-
-
-
-
-            </ul>
 
           </div>
         </div>
