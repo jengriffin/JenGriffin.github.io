@@ -10,10 +10,14 @@ return(
     <div className="row row-cols-1 row-cols-md-3 g-4" id="projects">
         <div className="col">
             <div className="card shadow h-100">
+                <a
+                    href="https://robust-boasts.surge.sh/" target="_blank">
+
                 <img src={spaceman} className="card-img-top" alt="Spaceman"/>
+                </a>
                     <div className="card-body">
                         <h5 className="card-title"> <a
-                            href="https://robust-boasts.surge.sh/" target="_blank">Spaceman
+                            href="https://robust-boasts.surge.sh/" target="_blank">Spaceman V2!
                         </a></h5>
                         <p className="card-text">This front-end hangman game was built in 6 days utilizing JavaScript, CSS, and HTML 5 and is  structured to support early literacy and technology skills for children, covering 7 essential skills.
                                              The words are the 100 most frequently read encountered words for kindergarten. High contrast colors, straight font styling and various element sizes make important features stand out for learners new to digital interactions and those with various levels of visual acuity.
