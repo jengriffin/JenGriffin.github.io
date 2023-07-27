@@ -128,3 +128,9 @@ header{
   margin-right: -37rem;
   margin-left: -36rem;
 }
+#nifi{
+  max-width: 9%;
+  height: auto;
+  margin-right: -37rem;
+  margin-left: -30rem;
+}

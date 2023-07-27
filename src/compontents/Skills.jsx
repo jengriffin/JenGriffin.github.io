@@ -65,7 +65,7 @@ const Skills = () => {
                      <img id="boot" alt="Bootstrap" data-bs-toggle="tooltip" title="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"/>
                  </li>
                  <li className="list-inline-item">
-                     <img id="post" alt="Nifi" data-bs-toggle="tooltip" title="Nifi" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Apache-nifi-logo.svg/2560px-Apache-nifi-logo.svg.png"/>
+                     <img id="nifi" alt="Nifi" data-bs-toggle="tooltip" title="Nifi" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Apache-nifi-logo.svg/2560px-Apache-nifi-logo.svg.png"/>
                  </li>
              </ul>
 
