@@ -95,7 +95,8 @@ header{
 #js{
   max-width: 50%;
   height: auto;
-  margin-right: 0;
+  margin-right: -3rem;
+  margin-left: -3rem;
 }
 #dj{
   max-width: 35%;
