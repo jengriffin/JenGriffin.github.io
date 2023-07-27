@@ -116,3 +116,15 @@ header{
   margin-right: -37rem;
   margin-left: -30rem;
 }
+#jse{
+  max-width: 84%;
+  height: auto;
+  margin-right: -6rem;
+  margin-left: -3rem;
+}
+#boot{
+  max-width: 200%;
+  height: auto;
+  margin-right: -37rem;
+  margin-left: -36rem;
+}
