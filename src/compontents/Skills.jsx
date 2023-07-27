@@ -7,7 +7,7 @@ const Skills = () => {
 
       </div>
 
-    <div className="container sections-wrapper py-5">
+    <div className="container shadow p-3 sections-wrapper py-5">
 
       <aside class="skills aside section">
         <div class="section-inner shadow-sm rounded ">
