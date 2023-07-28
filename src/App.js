@@ -1,20 +1,29 @@
-import ThemeSwitcher from './ThemeSwitcher'
 import './App.css'
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Test from './compontents/Test'
 import Nav from './compontents/Nav'
+import Projects from "./compontents/Projects";
+import ImageContainer from "./compontents/ImageContainer";
+import Skills from "./compontents/Skills";
+import Testimonals from "./compontents/Testimonals";
+import CodersRankActivity from '@codersrank/activity';
+import Github from "./compontents/Github";
+
+// register web component as <codersrank-activity> element
+window.customElements.define('codersrank-activity', CodersRankActivity);
+
+
+
 
 function App() {
   return (
-    <div className="App min-vh-100 d-flex justify-content-center align-items-center">
-      {/* <div>
-        <ThemeSwitcher />
-      </div> */}
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Test />} />
-      </Routes>
+    <div className="App">
+        <Nav />
+        <ImageContainer />
+        <Projects/>
+        <Skills/>
+        <Github/>
+        <Testimonals/>
+
     </div>
   )
 }

@@ -1,57 +1,129 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
-body{
-  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1RoJj3nGGAWYccu9-YGwhCfOfrHQUAtY2w&usqp=CAU";
+html::-webkit-scrollbar{
+  display: none;
+}
+
+.header-image {
+  background: url("https://www.ucdavis.edu/sites/default/files/styles/sf_landscape_16x9/public/images/article/160726_sunflower_rows.jpg.jpeg?h=57024e64&itok=fyhoGQGq");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
 }
 .nav {
-  float: left;
-  margin-left: 75px;
-  margin-bottom: -300px;
-  
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar-brand{
+  padding-left: 2rem;
 }
 .nav a {
-  color: #FFFFFF;
   text-decoration: none;
-  font-size: 22px;
-  display: block;
-  background-color:#282C35;
-  margin: 52px 0 0 -55px;
-  width: 120px;
-  text-align: left;
-  box-shadow: 6px 4px 20px -5px #282C35;
-  padding-bottom: 2px;
+  margin: .74rem .74rem 0 -.74rem;
+  box-shadow: 6rem 4rem 20rem -5rem #282C35;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+
+}
+a{
+  text-decoration: none;
+  color: #2c3034;
+}
+.btn{
+  margin-right: 1rem;
+  margin-top: .8rem;
+  text-transform: uppercase;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+.about-section{
+  background: hsla(100, 100%, 100%, 0.5);
 }
 
 
-.nav a:hover {
-  box-shadow: 6px 4px 20px -2px #0a1a99;
-  font-size: 22px;
-  width:120px;
-  background-color: #FFFFFF;
-  color:#282C35
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: aqua;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
 }
+#latest{
+  max-width: 60%;
+  height: auto;
 
+}
+.profile-content-container {
+  padding-top: 4rem;
+}
+.profile-content{
+  background: hsla(100, 100%, 100%, 0.25);
+}
+header{
+  background-color:hsla(100, 50%, 100%, 0) ;
+}
 
+#projects{
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.widget{
+  margin-right: 6rem;
+  margin-left: 6rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+}
+#python{
+  color: rgb(53,114,165);
+}
+#vue{
+  color: rgb(63,180,128);
+}
+#react{
+  color: rgb(94,212,224);
+}
+#js{
+  max-width: 99%;
+  height: auto;
+  margin-right: -6rem;
+  margin-left: -3rem;
+}
+#dj{
+  max-width: 55%;
+  height: auto;
+  margin-right: -6rem;
+  margin-left: -6rem;
+}
+#SQL{
+  max-width: 160%;
+  height: auto;
+  margin-right: -26rem;
+  margin-left: -26rem;
+}
+#post{
+  max-width: 49%;
+  height: auto;
+  margin-right: -37rem;
+  margin-left: -30rem;
+}
+#jse{
+  max-width: 84%;
+  height: auto;
+  margin-right: -6rem;
+  margin-left: -3rem;
+}
+#boot{
+  max-width: 200%;
+  height: auto;
+  margin-right: -37rem;
+  margin-left: -36rem;
+}
+#nifi{
+  max-width: 9%;
+  height: auto;
+  margin-right: -37rem;
+  margin-left: -30rem;
+}
